@@ -1,0 +1,14 @@
+
+int intervalo(int v[], int l, int r){
+    if (l == r){
+        return 1;
+    }
+
+    if(v[l] <= v[r]){
+        r = intervalo(v, l+1, r-1);
+        return r;
+    }
+    else{
+        return 0;
+    }
+}

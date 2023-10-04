@@ -1,0 +1,24 @@
+Saída de dog(243):
+int dog(int n) {
+    if (n == 1) {
+        printf("b: %d\n", n);
+        return n;
+    }
+    printf("%d {\n", n);
+    int r = 2 * dog(n / 3);
+    printf("} %d\n", r);
+    return r;
+}
+
+243{
+    81{
+        27{
+            9{
+                3{
+                    b: 1
+                }2
+            }6
+        }18
+    }54
+}162
+

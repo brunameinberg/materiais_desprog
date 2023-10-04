@@ -1,0 +1,26 @@
+int mdc(int a, int b){
+    int maior;
+    int menor;
+
+    if(a > b){
+        maior = a;
+        menor = b;
+    }
+    else{
+        maior = b;
+        menor = a;
+    }
+
+    if (menor == 0){
+        return maior;
+    }
+
+    if (maior % menor == 0){
+        return menor;
+
+    }
+    else{
+        return mdc(menor, maior - menor);
+    }
+
+}

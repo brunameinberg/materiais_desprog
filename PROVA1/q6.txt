@@ -1,0 +1,11 @@
+void max_cum(int v[], int n){
+    if (n == 1){
+        return;
+    }
+
+    if (v[n-1] > v[n]){
+        v[n] = v[n-1];
+    }
+
+    max_cum(v, n-1);
+}

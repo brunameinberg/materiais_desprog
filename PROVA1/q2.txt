@@ -1,0 +1,41 @@
+saída de cat(0):
+
+int cat(int n) {
+    if (n == 3) {
+        printf("b: %d\n", n);
+        return n;
+    }
+    printf("%d {\n", n);
+    int r = cat(n + 1) + cat(n + 1);
+    printf("} %d\n", r);
+    return r;
+}
+
+0{
+    1{
+        2{
+            b: 3
+            b: 3
+        }6
+        2{
+            b: 3
+            b: 3
+        }6
+
+    }12
+    1{
+        2{
+            b: 3
+            b: 3
+        }6
+        2{
+            b: 3
+            b: 3
+        }6
+
+    }12
+
+}24
+
+
+
