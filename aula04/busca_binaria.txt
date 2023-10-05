@@ -1,0 +1,46 @@
+int busca_binaria(int v[], int  n, int q){
+    int l = 0;
+    int r = n - 1;
+
+    while (l <= r){
+        int m = (l + r) / 2;
+
+        if (v[m] == q){
+            return m;
+        }
+
+        if (v[m] < q){
+            l = m + 1;
+        }
+        else{
+            r = m - 1;
+        }
+    }
+    return -1;
+}
+
+Número de instruções:
+    l = 0 (1)
+    r = n - 1 (2)
+    Na primeira iteração: (l <= r) => r - l + 1 = n - 1 - 0 + 1 = n;
+    Na segunda iteração: n/2
+    Na terceira iteração: n/4
+    Na x iteração: n * 2^(-x)
+
+    Tendo (n/2^x) = 1 => n = 2^x => x = log n base(2)
+    Dessa forma, a complexidade de busca_binária é:
+    l = 0 (1)
+    r = n - 1 (2)
+    l <= r (log n base(2) + 2)
+    m = (l + r) / 2 (= => log n base(2) + 1; + => log n base(2) + 1;  => log n base(2) + 1)
+    v[m] == q (log n base(2) + 1)
+    v[m] < q (log n base(2) + 1)
+    l = m + 1 (= => log n base(2) + 1; + => log n base(2) + 1)
+    r = m - 1 (= => log n base(2) + 1; - => log n base(2) + 1)
+
+Complexidade:
+log(n) = log (n) (base(2))
+f(n) = 1 + 2 + log(n) + 2 + log(n) + 1 + log(n) + 1 + log(n) + 1 + log(n) + 1 + log(n) + 1 + log(n) + 1 + log(n) + 1 + log(n) + 1 + log(n) + 1=
+f(n) = 10 log(n) + 14
+
+

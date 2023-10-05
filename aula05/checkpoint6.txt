@@ -1,0 +1,10 @@
+1) sim ((f(n)/(f(n)+g(n)) é obviamente menor que inf)
+2) sim (((f(n) + g((n))/f(n)) = 1 + g(n)/f(n)) não tende a infinito.)
+
+
+Regra:
+Uma soma de complexidades não cresce mais que a maior dessas complexidades
+ex:
+n + log n = O(n)
+n² + n + log n = O(n²)
+....

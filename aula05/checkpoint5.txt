@@ -1,0 +1,5 @@
+1) sim (n^k não cresce mais que 2^n)
+2) não (2^n cresce mais que n^k)
+
+Regra:
+Complexidades exponenciais crescem mais que complexidades polinomiais

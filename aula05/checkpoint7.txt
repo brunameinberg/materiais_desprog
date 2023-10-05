@@ -1,0 +1,9 @@
+1) sim (f(n)/ f(n)*g(n)) => f(n) não cresce mais que f(n) * g(n)
+2) não (((f(n) * g(n)/ f(n)) = g(n))) tende a inf exceto se g(n) for cte.
+
+Regra:
+Uma multiplicação de complexidades cresce mais que qualquer uma delas individualmente
+
+Ex:
+n * log n != O(n)
+n² * n != O(n²)

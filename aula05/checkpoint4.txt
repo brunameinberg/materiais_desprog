@@ -1,0 +1,5 @@
+1) sim (log n não cresce mais que n)
+2) não (n cresce mais que log n)
+
+Regra:
+Complexidades lineares crescem mais que complexidades logarítmicas

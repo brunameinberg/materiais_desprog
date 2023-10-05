@@ -1,0 +1,9 @@
+void derivada(int v[], int l, int r){
+    if (l == r){
+        return;
+    }
+
+    v[r] = v[r] - v[r-1]
+    derivada(v, l, r-1);
+    
+}

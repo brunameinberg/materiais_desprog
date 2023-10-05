@@ -1,0 +1,7 @@
+int soma(int n){
+    if (n < 10){
+        retun n;
+    }
+    soma(n/10) + n % 10;
+
+}

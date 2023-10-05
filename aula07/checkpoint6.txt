@@ -1,0 +1,4 @@
+it 1: ultimo elemento no indice certo
+it 2: ultimos 2 elementos no indice certo
+it 3: ultimos 3 elementos no indice certo
+it 4: ultimos 4 elementos no indice certo

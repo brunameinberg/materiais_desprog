@@ -1,0 +1,8 @@
+ache o menor elemento e coloque no índice 0
+ache o segundo menor elemento e coloque no indice 1
+ache o terceiro menor elemento e coloque no indice 2
+
+isto é 
+para cada i em (0, 1, 2, ..., n-2)
+    seja m o índice do menor elemento entre i e n-1
+    troca v[m] e v[i]

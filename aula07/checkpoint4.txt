@@ -1,0 +1,1 @@
+Significa que o vetor está ordenado

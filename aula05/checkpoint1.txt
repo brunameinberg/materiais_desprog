@@ -1,0 +1,9 @@
+1) sim
+2) sim
+3) sim
+4) sim
+
+
+Regra:
+Considerando a notação O, soma de constante ou multiplicação 
+por constante não fazem diferença para uma complexidade

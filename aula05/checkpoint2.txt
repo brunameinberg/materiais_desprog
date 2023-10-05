@@ -1,0 +1,6 @@
+1) sim (n não cresce mais que n²)
+2) não (n² cresce mais que n) 
+
+Regra: 
+Mesmo considrando a notação O, complexidades com exponte maior
+crescem mais que complexidades com exponte menor'

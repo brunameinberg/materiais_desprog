@@ -1,0 +1,6 @@
+1) sim
+2) sim
+
+
+Regra:
+Considerando a notação O, base de um logaritmo não faz diferença.

@@ -1,0 +1,22 @@
+int busca_melhor(int v[], int n, int q){
+    for (int i = 0; i < n; i++){
+        if (v[i] == q){
+            return i;
+        }
+        if (v[i] > q){
+            break;
+        }
+
+    }
+    return -1;
+}
+
+Número de instruções:
+    i = 0 (1)
+    i < n (n + 1)
+    i++ (n)
+    v[i] == q (n)
+    v[i] > q (n)
+
+Complexidade da função:
+f(n) = 4n + 2
